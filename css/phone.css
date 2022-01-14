@@ -1,0 +1,204 @@
+@media screen and (max-width: 670px) {
+    .component {
+        /* width: 100%; */
+        width: 75%;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .form_header {
+        display: flex;
+        flex-direction: column;
+    }
+    .back_button {
+        border-radius: 100px;
+        height: 32px;
+        width: 140px;
+        text-align: center;
+        padding: 2px 2px;
+        border: 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        background-color: #e2641d;
+        color: #ffffff;
+        border-color: white;
+        margin-right: 122px;
+        margin-top: 12px;
+    }
+    .heading {
+        font-size: 19px;
+        margin-right: 43px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar_button {
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 45px;
+        height: 40px;
+    }
+    .navbar img {
+        margin-left: 30px;
+        height: 30px;
+        width: 285px;
+    }
+    .btn-primary {
+        height: 35px;
+        font-size: 14px;
+    }
+    .btn-secondary {
+        height: 35px;
+        font-size: 14px;
+        width: 100px;
+    }
+    .frame {
+        width: 214px;
+    }
+    .button {
+        padding-top: 4px;
+    }
+    .footer {
+        line-height: 19px;
+        /* margin-left: 14px; */
+        margin-right: 39px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .component {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .form_header {
+        display: flex;
+        flex-direction: column;
+    }
+    .back_button {
+        border-radius: 100px;
+        height: 32px;
+        width: 140px;
+        text-align: center;
+        padding: 2px 2px;
+        border: 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        background-color: #e2641d;
+        color: #ffffff;
+        border-color: white;
+        margin-right: 122px;
+        margin-top: 12px;
+    }
+    .heading {
+        font-size: 19px;
+        margin-right: 43px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar_button {
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 43px;
+    }
+    .navbar img {
+        /* margin-left: 20px; */
+        margin-left: 28px;
+        height: 30px;
+        width: 285px;
+    }
+    .btn-primary {
+        height: 35px;
+        font-size: 14px;
+    }
+    .btn-secondary {
+        height: 35px;
+        font-size: 14px;
+        width: 100px;
+    }
+    .frame {
+        width: 214px;
+    }
+    .button {
+        padding-top: 4px;
+    }
+    .container {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1025px) {
+    .component {
+        width: 75%;
+        margin: auto;
+        margin-bottom: 18px;
+    }
+    .form_header {
+        display: flex;
+        flex-direction: column;
+    }
+    .back_button {
+        border-radius: 100px;
+        height: 32px;
+        width: 140px;
+        text-align: center;
+        padding: 2px 2px;
+        border: 0px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        text-align: center;
+        background-color: #e2641d;
+        color: #ffffff;
+        border-color: white;
+        margin-right: 122px;
+        margin-top: 12px;
+    }
+    .heading {
+        font-size: 19px;
+        margin-right: 43px;
+    }
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar_button {
+        margin: auto;
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 43px;
+    }
+    .navbar img {
+        /* margin-left: 20px; */
+        margin-left: 28px;
+        height: 30px;
+        width: 285px;
+    }
+    .btn-primary {
+        height: 35px;
+        font-size: 14px;
+    }
+    .btn-secondary {
+        height: 35px;
+        font-size: 14px;
+        width: 100px;
+    }
+    .frame {
+        width: 214px;
+    }
+    .button {
+        padding-top: 4px;
+    }
+    .container {
+        width: 100%;
+    }
+}

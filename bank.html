@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="css/style1.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,600;1,300;1,600&family=Roboto:wght@300&display=swap" rel="stylesheet" />
+        <title>PROJECT</title>
+        <link rel="stylesheet" href="css/phone1.css">
+    </head>
+    <body>
+        <header class="navbar">
+            <img src="img.svg" alt="this is a image of merobooking" />
+            <button class="navbar_button">Get Help?</button>
+        </header>
+        <div class="container">
+            <header class="form_header">
+                <span class="form_title">Book New Appointment</span>
+                <a href="index.html"><button class="back_button">Go Back</button></a>
+            </header>
+            <form action="#" class="form_container">
+                <div>
+                    <label for="name" class="label">Name</label>
+                    <input type="text" placeholder="Prashant Nepal" id="name" />
+                </div>
+                <div>
+                    <label for="gender" class="label">Gender</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" id="other" name="gender" value="other" />
+                    <label for="male">Male</label>
+                    <input type="radio" id="Female" name="gender" value="Female" />
+                    <label for="Female">Female</label>
+                    <input type="radio" id="other" name="gender" value="male" />
+                    <label for="other">Others</label>
+                </div>
+                <div>
+                    <label for="Email" class="label">Email Address</label>
+                    <input type="email" placeholder="prashantnepal143@gmail.com" id="Email" />
+                </div>
+                <div>
+                    <label for="Phone" class="label">Phone Number</label>
+                    <input type="number" id="Phone" />
+                </div>
+                <div>
+                    <label for="Address" class="label">Address</label>
+                    <textarea name="address" id="Address"></textarea>
+                </div>
+                <div>
+                    <label for="Date" class="label">Date</label>
+                    <input type="date" id="Date" />
+                </div>
+                <button class="submit">Book Appointment</button>
+            </form>
+        </div>
+        <footer class="footer">
+            <div>Copyright 2021. Mero Booking Inc, Kathmandu</div>
+        </footer>
+    </body>
+</html>

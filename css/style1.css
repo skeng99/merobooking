@@ -1,0 +1,209 @@
+.navbar img {
+    cursor: pointer;
+}
+.form_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: black;
+    height: 28px;
+}
+.navbar_button:hover {
+    background-color: rgb(107, 107, 124);
+    cursor: pointer;
+}
+.container {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* .form_header {
+    display: flex;
+    justify-content: space-between;
+    width: 32%;
+    align-items: center;
+    margin: 20px;
+    margin-top: 20px;
+} */
+.back_button {
+    height: 47px;
+    width: 108px;
+    border-radius: 58px;
+    background-color:#ffffff;
+    border: 1px solid #000000;
+    /* border-color: black; */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.form_container {
+    background-color: #ffffff;
+    /* padding: 30px; */
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* width: 35%; */
+    margin-bottom: 80px;
+    /* font-weight: 400; */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    height: 585px;
+    /* height: 666px; */
+    width: 625px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+   
+
+}
+.submit {
+    border-radius: 58px;
+    height: 47px;
+    width: 182px;
+    padding: 5px 5px;
+    margin-top: 10px;
+    font-family: Roboto;
+    font-size: 16px;
+    text-align: center;
+    background-color: #e2641d;
+    color: #ffffff;
+    border-color: white;
+    border: 0px;
+    line-height: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.label {
+    color: #515263;
+    font-size: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 33px;
+    color: #8c8c8c;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 19px;
+}
+.header_button:hover {
+    background-color: rgb(107, 107, 124);
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: rgb(107, 107, 124);
+    cursor: pointer;
+}
+.back_button:hover {
+    background-color: rgb(107, 107, 124);
+    cursor: pointer;
+}
+/* .gender {
+    display: flex;
+    padding-top: 6px;
+} */
+#branch {
+    margin: 10px;
+}
+
+.navbar_button {
+    height: 47px;
+    width: 119px;
+    top: 21px;
+    border-radius: 58px;
+    padding: 14px, 24px, 14px, 24px;
+    margin-top: 21px;
+    margin-bottom: 22px;
+    margin-right: 97px;
+    /* border-color: black; */
+    background-color: white;
+    font-weight: 700;
+    border-color: black;
+    font-family: Roboto;
+    border: 1px solid #000000;
+}
+
+.navbar {
+    /* height: 90px; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+    position: relative;
+}
+.navbar img {
+    height: 48px;
+    width: 306px;
+    margin: 21px 0px 21px 97px;
+}
+.form_header {
+    height: 28px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.13px;
+    color: black;
+    /* height: 28px; */
+    display: flex;
+    margin-bottom: 34px;
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    width: 675px;
+    align-items: center;
+}
+.form_container input {
+    background-color: #fafafa;
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 10px;
+    border: 1px solid #d3d3d3;
+    margin-top: 9px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 48px;
+    font-size: 16px;
+}
+.form_container textarea {
+    background-color: #fafafa;
+    width: 99%;
+    height: 50px;
+    margin-top: 9px;
+    margin-bottom: 4px;
+    border-radius: 4px;
+    resize: none;
+    height: 73px;
+}
+::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #000000;
+}
+input[type="radio"] {
+    width: 30px;
+    height: 16px;
+    background: #fafafa;
+    border: 1px solid #d3d3d3;
+    border-radius: 31px;
+    /* margin-right: 20px; */
+}
